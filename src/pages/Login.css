@@ -1,0 +1,64 @@
+.login-bg {
+  --background: url("/assets/bg.jpg") no-repeat center center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  width: 360px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-top {
+  background-color: #9b6de5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-icon {
+  width: 180px;
+
+}
+
+.login-body {
+  padding: 25px;
+}
+
+.login-input {
+  margin-bottom: 20px;
+  --background: #fff;
+  --border-radius: 10px;
+  --border: 1px solid #ccc;
+  padding-left: 10px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  --background: #9b6de5;
+  --color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.forgot {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
